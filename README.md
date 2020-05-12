@@ -34,6 +34,7 @@ webpack-mkbug-config-loader可以自动完成conf文件的解析，并且可以�
   name=dev
 
   // test.prod.conf
+  name=prod
 
   // process.env.NODE_ENV=""
   import conf from './config/test.conf'
