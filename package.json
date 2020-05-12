@@ -1,0 +1,32 @@
+{
+  "name": "webpack-mkbug-config-loader",
+  "description": "A loader for load different config file for webpack!",
+  "version": "1.0.1",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "node bin/build.js",
+    "start": "webpack-dev-server --open"
+  },
+  "author": "ryouaki (46517115@qq.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "7.9.6",
+    "babel-loader": "8.1.0",
+    "html-webpack-plugin": "4.3.0",
+    "webpack": "4.43.0",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-server": "3.11.0"
+  },
+  "files": [
+    "lib",
+    "package.json",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "config",
+    "loader",
+    "conf",
+    "webpack"
+  ]
+}
